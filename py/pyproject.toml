@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "gametheory-exp"
+version = "0.0.0"
+description = ""
+authors = ["Colk-tech <master@colk.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
